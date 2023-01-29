@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;1,200;1,300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Rent-a-Car</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="cabeçalho">
+  <div class="container">    
+    <div class="navbar">
+        <div class="logo">
+            <h1>Rent & Drive</h1>
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li> <a href="paginicial.html">Pagina Inicial</a></li>
+                <li> <a href="produtos.html">Carros Disponiveis</a> </li>
+                <li> <a href="login-signup.html">Conta</a></li>
+                <li> <a href="#sobrenoos">Sobre Nós</a></li>
+            </ul>
+        </nav>
+        <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+      <div class="row">
+        <div class="col-2">
+            <h2>Dê Um Estilo Novo<br>A Sua Chegada!</h2>
+            <p>Alugue aqui os melhores carros da praça.<br>Curta o seu evento com o flow da town</p>
+            
+        </div>
+        <div class="col-2"> <img src="images/2020-bmw-x7-xdrive40i-bmw-suv-x3-2019-sedan-car-vehicle-transportation-transparent-png-678237.png">  </div>
+      </div>
+  </div>
+</div>
+    
+<!--------Categorias------->
+    <div class="categorias">
+        <h2>Seja O Primeiro a Conduzir</h2>
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3"><img src="images/2020_audi_sq5_4dr-suv_premium-plus-tfsi-quattro_fq_oem_1_815x543.jpg"> 
+                    <h4>AUDI SQ5 2020-GASOLINA</h4>
+                    <h6>RECEM IMPORTADO</h6>
+                    <p>Um SUV executivo, esportivo e confortavel.</p>
+                    <p>11.999MT/DIA</p>
+                </div>
+                
+                <div class="col-3"><img src="images/hilux.jpg">  
+                    <h4>TOYOTA HILUX - DIESEL</h4>
+                    <h6>RECEM IMPORTADO</h6>
+                    <p>Escolha aventuras, escolha tracção 4x4</p>
+                    <p>7.999MT/DIA</p>
+                </div>
+                
+                <div class="col-3">
+                    <img src="images/audi%20rs%20front.jpg"> 
+                    <h4>AUDI RS5 2019-GASOLINA</h4>
+                    <h6>RECEM IMPORTADO</h6>
+                    <p>Uma escolha esportiva, confortavel e veloz.</p>
+                    <p>8.999MT/DIA</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<!--------Marcas------->
+    <div class="categorias">
+        <h2 class="titulo">QUE MARCA DESEJA ALUGAR?</h2>
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <a href="#audi"><img src="images/audi%20a4.jpeg"> </a>
+                    <h4>AUDI</h4>
+                    <p>A PARTIR DE 9.999MT/DIA</p>
+                     <a href="#bmw"><img src="images/x7exterior.jpg"></a>
+                     <a href="#bmw"><h4>BMW</h4></a>
+                     <p>A PARTIR DE 12.999MT/DIA</p>
+                </div>
+                
+                <div class="col-3">
+                    <a href="#ford"><img src="images/image%20(4).jpg"> 
+                    <h4>FORD</h4> </a>
+                    <p>A PARTIR DE 4.999MT/DIA</p> 
+                    
+                    <a href="#mazda"><img src="images/2019_mazda_bt_50_Used_1.jpg"> 
+                    <h4>MAZDA</h4></a>
+                    <p>A PARTIR DE 4.999MT/DIA</p>
+                
+                </div>
+                
+                <div class="col-3">
+                    <a href="#mercedes"><img src="images/g63-front.jpg"> 
+                    <h4>MERCEDES-BENZ</h4></a>
+                    <p>A PARTIR DE 14.999MT/DIA</p>
+                    
+                    <a href="#toyota"><img src="images/BK623438_0e1955.jpg"> 
+                    <h4>TOYOTA</h4></a>
+                    <p>A PARTIR DE 4.999MT/DIA</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-------AUDI------->
+        <section id="audi">
+        <div class="audi">
+            <h2>AUDI</h2>
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-4">
+                        <img src="images/audi%20a4.jpeg">
+                        <h4>AUDI A4 2018-GASOLINA</h4>
+                        <p>Uma escolha executiva, confortavel e acessivel.</p>
+                        <p>7.999MT/DIA</p>
+                        
+                    </div>
+                    
+                    <div class="col-4">
+                        <img src="images/audi%20rs%20front.jpg">
+                        <h4>AUDI RS5 2019-GASOLINA</h4>
+                        <p>Uma escolha esportiva, confortavel e veloz.</p>
+                        <p>8.999MT/DIA</p>
+                        
+                    </div>
+                    
+                    <div class="col-4">
+                        <img src="images/audi%20q7%20front.jpeg">
+                        <h4>AUDI Q7 2015-GASOLINA</h4>
+                        <p>Uma escolha familiar, confortavel e com tracção 4x4.</p>
+                        <p>9.999MT/DIA</p>
+                        
+                    </div>
+                    
+                    <div class="col-4">
+                        <img src="images/2020_audi_sq5_4dr-suv_premium-plus-tfsi-quattro_fq_oem_1_815x543.jpg">
+                        <h4>AUDI SQ5 2020-GASOLINA</h4>
+                        <p>Um SUV executivo, esportivo e confortavel.</p>
+                        <p>11.999MT/DIA</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>  
+<!----------------------------------BMW------------------------------------------------->
+<section id="bmw">        
+    <div class="BMW">
+            <h2>BMW</h2>
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-4">
+                        <img src="images/118i.jpg">
+                        <h4>BMW 118i 2014-GASOLINA</h4>
+                        <p>Esta é a melhor escolha para amntes do BMW que queiram economizar.</p>
+                        <p>5.999MT/DIA</p>
+                        
+                    </div>
+                    
+                    <div class="col-4">
+                        <img src="images/bmw-330i-xdrive-2018-wba8d9c5xjem34530-img2.jpg">
+                        <h4>BMW 330i - GASOLINA</h4>
+                        <p>A escolha perfeita para relaxar num final-de-semana</p>
+                        <p>7.999MT/DIA</p>
+                        
+                    </div>
+                    
+                    <div class="col-4">
+                        <img src="images/img-1-960x.jpg">
+                        <h4>BMW X5 2018-DIESEL</h4>
+                        <p>Uma escolha familiar, confortavel e com tracção 4x4.</p>
+                        <p>9.999MT/DIA</p>
+                        
+                    </div>
+                    
+                    <div class="col-4">
+                        <a href="detalhes dos produtos-x7.html"><img src="images/x7exterior.jpg"></a>
+                        <h4>BMW X7 2020 - GASOLINA</h4>
+                        <p>Um SUV executivo, esportivo e confortavel.</p>
+                        <p>12.999MT/DIA</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+        
+    <!----------------------------------FORD------------------------------------------------->
+    <section id="ford">    
+    <div class="FORD">
+            <h2>FORD</h2>
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="images/image%20(4).jpg">
+                        <h4>FIESTA 2019-GASOLINA</h4>
+                        <p>Escolha economica</p>
+                        <p>4.999MT/DIA</p>
+                        
+                    </div>
+                    
+                    <div class="col-2">
+                        <img src="images/ford-focus-eu-_0002_c519_2018_interior_stline_bus_lhd_side_foe-2-16x9-2160x1215.jpg.renditions.JPEG">
+                        <h4>FOCUS - GASOLINA</h4>
+                        <p>Escolha economica</p>
+                        <p>4.999MT/DIA</p>
+                        
+                    </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>  
+        <!----------------------------------MAZDA------------------------------------------------->
+        <section id="mazda">
+                    <div class="MAZDA">
+            <h2 class="titulo_mazda">MAZDA</h2>
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="images/DEMIO.jpg">
+                        <h4>DEMIO 2012-GASOLINA</h4>
+                        <p>Escolha economica</p>
+                        <p>4.999MT/DIA</p>
+                        
+                    </div>
+                    
+                    <div class="col-2">
+                        <a href="detalhes dos produtos.html"><img src="images/2019_mazda_bt_50_Used_1.jpg"></a>
+                        <a href="detalhes dos produtos.html"><h4>BT-50 2019-DIESEL</h4></a>
+                        <a href="detalhes dos produtos.html"><p>Um carro com tracção 4x4 pronta para viajar.</p></a>
+                        <a href="detalhes dos produtos.html" class="pricehiplink"><p>8.999MT/DIA</p></a>
+                        
+                    </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    
+        <!----------------------------------MERCEDES-BENZ------------------------------------------------->
+        <section id="mercedes">
+        <div class="MERCEDES-BENZ">
+            <h2 class="titulo_mazda">MERCEDES-BENZ</h2>
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="images/C200-1.jpeg">
+                        <h4>C200 2015-GASOLINA</h4>
+                        <p>Escolha executiva</p>
+                        <p>9.999MT/DIA</p>
+                        
+                    </div>
+                    
+                    <div class="col-2">
+                        <img src="images/g63-front.jpg">
+                        <h4>G63 2021-GASOLINA</h4>
+                        <p>Escolha estilo, escolha presença, escolha tracção</p>
+                        <p>16.999MT/DIA</p>
+                        
+                    </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    <!--------TOYOTA------->
+    <section id="toyota">
+    <div class="TOYOTA">
+        <h2 class="titulo_mazda">TOYOTA</h2>
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3"><img src="images/BK623438_0e1955.jpg"> 
+                    <h4>TOYOTA AURIS- GASOLINA</h4>
+                    <p>Escolha economica.</p>
+                    <p>4.999MT/DIA</p>
+                </div>
+                <div class="col-3"><img src="images/hilux.jpg">  
+                    <h4>TOYOTA HILUX - DIESEL</h4>
+                    <h6>RECEM IMPORTADO</h6>
+                    <p>Escolha aventuras, escolha tracção 4x4</p>
+                    <p>7.999MT/DIA</p>
+                    
+                </div>
+                <div class="col-3"><img src="images/hiace1.jpg"> 
+                    <h4>TOYOTA HIACE 2007</h4>
+                    <p>Melhor opção para casamentos e outros tipos de eventos.</p>
+                    <p>9.999MT/DIA</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!--------------------------------MAIS ALUGADOS---------------------------------->    
+        <h2 class="titulo">CARROS MAIS ALUGADOS</h2>
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <a href=""><img src="images/BK623438_0e1955.jpg"> 
+                    <h4>TOYOTA AURIS - GASOLINA</h4>
+                    <p>4.999MT/DIA</p></a>
+
+                </div>
+                
+                <div class="col-3">
+                    <a href=""><img src="images/2019_mazda_bt_50_Used_1.jpg"> 
+                    <h4>MAZDA BT-50 DIESEL</h4>
+                    <p>8.999MT/DIA</p></a> 
+                    
+
+                
+                </div>
+                
+                <div class="col-3">
+                    <a href=""><img src="images/hiace1.jpg"> 
+                    <h4>TOYOTA HIACE 2007</h4>
+                    <p>9.999MT/DIA</p></a>
+                    
+
+                </div>
+            </div>
+        </div>
+    
+
+<!-------------------------------------Sobre Nós------------------------------------->
+<section id="sobrenoos">
+    <div class="sobrenos">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <h1>Rent & Drive</h1>
+                </div>
+                
+                <div class="col-2">
+                    <h2>Somos uma equipe pronta pra pra entregar a si e/ou a sua empresa o melhor veículo ao melhor preço!<br></h2>
+                    <h3>Com os veículos da Rent & Drive, o cliente chegará ao seu destino no melhor estilo.<br></h3>
+                    <h3 class="sobrenosh3">Fazemos aluguel de veículos colectivo e privados, desde seu carro para cidade até o carro 4x4 para aventuras além do asfalto.<br></h3>
+                    
+                    <h3 class="sobrenosh3">  Estamos localizados na Av. Samora Machel, n° 726 </h3>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    
+<!-----------Rodapé---------------->
+<div class="rodapé">
+    <div class="container">
+        <div class="row">
+            <div class="rodape-col-1">
+                <h3>Descarregue o nosso app</h3>
+                <p>Descarregue o nosso aplicativo para Android e IOS</p>
+                <div class="app-logo">
+                    <img src="images/app-store.png">
+                    <img src="images/play-store.png">
+                </div>    
+            </div>
+            <div class="rodape-col-2">
+                <h3>RENT&DRIVE </h3>
+                <p>Chegue com estilo a qualquer lugar</p>
+            </div>
+            <div class="rodape-col-3">
+                <h3>Links Importantes</h3>
+                <ul>
+                    <li><a href="">Termos e Condições</a></li>
+                    <li><a href="">Política de Trabalho</a></li>
+                </ul>
+            </div>
+            <div class="rodape-col-4">
+                <h3>Siga-nos</h3>
+                <ul>
+                    <li><a href="">FACEBOOK</a> </li>
+                    <li><a href="">TWITTER</a> </li>
+                    <li><a href="">INSTAGRAM</a> </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2022 - MardelJ</p>
+    </div>
+</div>
+<!--------------Js  React buttons------------->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        var CarrosDisponiveis = document.getElementById("CarrosDisponiveis")
+        var sobrenos = document.getElementsByClassName("sobrenos");
+        MenuItems.style.maxHeight="0px";
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px"){
+                MenuItems.style.maxHeight = "200px"
+            }
+            else{
+                MenuItems.style.maxHeight="0px"
+            }
+            
+        }
+    </script>
+</body>
+
+
+
+</html>
